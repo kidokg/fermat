@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="main.css">
+  <title>ferman</title>
+  <?php require_once("dbase.php");?>
+
+</head>
+<body>
+<div class ="intor">
+   <h1 >FERMAN</h1>
+   <a href="sub.html" >
+     <button type="button">問題</button>
+   </a>
+</div>
+<h2 class="onea">Ⅰ・A</h2>
+
+<!-dbaseで取得した配列を回している->
+ <?php  foreach($No1 = $key => $value)?>
+   <p><?php echo $value ?></p>
+   <p>------------------------</p>
+ <?php  endforeach?>
+
+
+
+
+
+</body>
+</html>
